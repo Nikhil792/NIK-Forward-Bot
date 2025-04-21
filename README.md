@@ -1,10 +1,10 @@
-# VJ Forward Bot
+# Trex Forward Bot
 
 <b>Auto Restart All User Forwarding After Bot Restarted.</b>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ+Forward+Bot+!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Trex+Forward+Bot+!)
 
-## How To Deploy [Video Tutorial](https://youtu.be/A-iIh_5WAlk)
+## How To Deploy [Video Tutorial]()
 
 ## Features
 
@@ -18,7 +18,7 @@
 - [x] Auto Restart Pending Task After Bot Restart 
 
 
-<b>To Know About All Features, Join My <a href='https://t.me/VJ_Botz'>Update Channel</a>.</b>
+<b>To Know About All Features, Join My <a href='https://t.me/trexowner'>Update Channel</a>.</b>
 
 ## Commands
 
@@ -40,8 +40,8 @@ broadcast - broadcast a message to all your users (owner only)
 * `API_HASH` API Hash from my.telegram.org
 * `BOT_TOKEN` Bot token from @BotFather
 * `BOT_OWNER` Telegram Account Id of Owner.
-* `DATABASE_URI` Database uri from [MongoDB](https://mongodb.com) Watch [Video Tutorial](https://youtu.be/DAHRmFdw99o)
+* `DATABASE_URI` Database uri from [MongoDB](https://mongodb.com) Watch [Video Tutorial]()
 
 ## Credits
 
-* <b>[Tech VJ](https://youtube.com/@Tech_VJ)</b>
+* <b>[ᴛᴇᴄʜ ɴɪᴋ]()</b>
