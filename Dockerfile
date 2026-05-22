@@ -1,12 +1,20 @@
-FROM python:3.10.8-slim-buster
+FROM python:3.10-slim
 
-RUN apt update && apt upgrade -y
-RUN apt install git -y
-COPY requirements.txt /requirements.txt
+# Install git
+RUN apt update && apt install -y git
 
-RUN cd /
-RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /NIK-Forward-Bot
+# Create working directory
 WORKDIR /NIK-Forward-Bot
-COPY . /NIK-Forward-Bot
-CMD gunicorn app:app & python3 main.py
+
+# Copy requirements first
+COPY requirements.txt .
+
+# Install python dependencies
+RUN pip install --no-cache-dir -U pip && \
+    pip install --no-cache-dir -r requirements.txt
+
+# Copy project files
+COPY . .
+
+# Start app
+CMD ["sh", "-c", "gunicorn app:app & python3 main.py"]
